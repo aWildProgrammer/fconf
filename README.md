@@ -4,7 +4,7 @@
 除此之外，还提供多种可选类型。
 
 #### 主要支持以下几种类型转换：
-string、int、int64、float64
+String、Int、Int64、Float64
 
 ## INI演示文件（DEMO）
 ```
