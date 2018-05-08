@@ -1,9 +1,9 @@
-# fconf包读取配置文件数据
+## fconf包读取配置文件数据
 这是一个用于引入配置文件的包，加载类似于ini风格的配置文件。
 与INI配置文件风格一样 根据顺序读取文件和每一行 如果在行首出现了;号，则认为是配置文件的注释。
 除此之外，还提供多种可选类型。
 
-# INI演示文件（DEMO）
+## INI演示文件（DEMO）
 ```
 [mysql]
 db1.Name = testMysqlDB
@@ -19,7 +19,7 @@ db1.Pwd = test
 Port=3309
 ```
 
-# 引用示例：
+## 引用示例：
 ```
 func main() {
 	c, err := fconf.NewFileConf("./demo.ini")
@@ -40,7 +40,7 @@ func main() {
 	fmt.Println(port)
 }
 ```
-# 运行以上代码将输出（OUTPUT）
+## 运行以上代码将输出（OUTPUT）
 
 ```
 127.0.0.1
