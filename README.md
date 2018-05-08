@@ -38,9 +38,9 @@ func main() {
 	// 取得配置时指定类型
 	port, err := c.Int("mysql.db1.Port")
 	if err != nil {
-		panic("~")
+		panic(err)
 	}
-	fmt.Println(port)
+	fmt.Println(port) // output: 3306(type int)
 }
 ```
 ## 运行以上代码将输出（OUTPUT）
