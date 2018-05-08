@@ -4,6 +4,7 @@
 除此之外，还提供多种可选类型。
 
 # INI演示文件（DEMO）
+```
 [mysql]
 db1.Name = testMysqlDB
 db1.Host = 127.0.0.1
@@ -16,6 +17,7 @@ db1.Pwd = test
 
 [tcp]
 Port=3309
+```
 
 # 引用示例：
 ```
@@ -40,9 +42,10 @@ func main() {
 ```
 # 运行以上代码将输出（OUTPUT）
 
+```
 127.0.0.1
 testMysqlDB
 root
 test
 3306
-
+```
