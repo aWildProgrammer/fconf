@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/fconf"
+	"github.com/aWildProgrammer/fconf"
 )
 
 func main() {
@@ -19,7 +19,7 @@ func main() {
 	// 取得配置时指定类型
 	port, err := c.Int("mysql.db1.Port")
 	if err != nil {
-		panic("~")
+		panic(err)
 	}
-	fmt.Println(port)
+	fmt.Println(port) // output:127.0.0.1
 }
