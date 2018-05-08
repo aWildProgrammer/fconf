@@ -2,7 +2,7 @@ package fconf
 
 /**
  * 截入配置文件并读取其中内容
- * @Auther 帅城
+ * @Auther QiuXiangCheng
  * @Date   2018/05/08
  *
  * 与INI配置文件风格一样 根据顺序读取文件和每一行 如果在行首出现了;号，则认为是配置文件的注释
