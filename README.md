@@ -18,6 +18,7 @@ db1.Pwd = test
 Port=3309
 
 # 引用示例：
+```
 func main() {
 	c, err := fconf.NewFileConf("./demo.ini")
 	if err != nil {
@@ -36,7 +37,7 @@ func main() {
 	}
 	fmt.Println(port)
 }
-
+```
 # 运行以上代码将输出（OUTPUT）
 
 127.0.0.1
